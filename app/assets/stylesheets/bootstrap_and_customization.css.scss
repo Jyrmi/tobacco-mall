@@ -1,15 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC|Droid+Serif|Exo:300);
 
-$body-bg:							#666666;
-$navbar-height:						40px;
-$font-family-sans-serif:			'Playfair Display', 'Droid Serif', 'Exo', Helvetica, Arial, cursive;
-$navbar-default-bg:					#191919;
-$navbar-default-link-color:			#ecf0f1;
-$navbar-default-brand-color:		#ecf0f1;
+$body-bg: #666666;
+$navbar-height: 40px;
+$font-family-sans-serif: 'Playfair Display', 'Droid Serif', 'Exo', Helvetica, Arial, cursive;
+$navbar-default-bg: #191919;
+$navbar-default-link-color:	#ecf0f1;
+$navbar-default-brand-color: #ecf0f1;
 $navbar-default-link-hover-color:	#bdc3c7;
-$brand-primary:						#2980b9;
-$jumbotron-bg:						white;
+$brand-primary: #2980b9;
+$jumbotron-bg: white;
 
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
 
 .center {
@@ -19,4 +20,17 @@ $jumbotron-bg:						white;
 .navbar-brand {
 	font-weight: bold;
 	font-family: 'Playfair Display SC'
+}
+
+a {
+  color: #f46830; 
+  &:hover {
+    color: #4fb3e8;
+    -webkit-transition: all .1s ease-in-out;
+       -moz-transition: all .1s ease-in-out;
+        -ms-transition: all .1s ease-in-out;
+         -o-transition: all .1s ease-in-out;
+            transition: all .1s ease-in-out;
+  }
+  text-decoration: none;
 }
