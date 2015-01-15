@@ -2,26 +2,25 @@
 
 $body-bg: #ecf0f1;
 $navbar-height: 40px;
+$navbar-default-link-color: #c0392b;
 $font-family-sans-serif: 'Playfair Display', 'Droid Serif', Helvetica, Arial, cursive;
-$navbar-default-bg: white;
-$navbar-default-brand-color: #ecf0f1;
-$brand-primary: #c0392b;
-$jumbotron-bg: white;
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
-
-.center {
-	text-align: center;
-}
 
 .navbar-brand {
 	font-weight: bold;
 	font-family: 'Playfair Display SC';
 }
 
+.panel {
+	background-color: white;
+	text-align: center;
+}
+
 .jumbotron {
 	background-color: white;
+	text-align: center;
 }
 
 body {
