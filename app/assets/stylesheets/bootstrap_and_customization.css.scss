@@ -1,12 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Quattrocento|Playfair+Display+SC|Droid+Serif);
+@import url(http://fonts.googleapis.com/css?family=Quattrocento|Playfair+Display|Playfair+Display+SC|Droid+Serif);
 
 $body-bg: #ecf0f1;
 $navbar-height: 40px;
-$font-family-sans-serif: 'Quattrocento', 'Droid Serif', Helvetica, Arial, cursive;
+$font-family-sans-serif: 'Playfair Display', 'Droid Serif', Helvetica, Arial, cursive;
 $navbar-default-bg: white;
-$navbar-default-link-color:	#c0392b;
 $navbar-default-brand-color: #ecf0f1;
-$navbar-default-link-hover-color:	#bdc3c7;
 $brand-primary: #c0392b;
 $jumbotron-bg: white;
 
@@ -22,10 +20,12 @@ $jumbotron-bg: white;
 	font-family: 'Playfair Display SC';
 }
 
-.active {
-	background-color: #ecf0f1;
+.jumbotron {
+	background-color: white;
 }
 
-section "section-contact" {
-	background-color: white;
+body {
+	background-image: url('fog_1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
