@@ -5735,22 +5735,22 @@ button.close {
     padding-top: 40px;
   }
   body #menu .wrapper-title,
-  body #contact-us .wrapper-title {
+  body #contact .wrapper-title {
     margin-bottom: 50px !important;
     padding: 0px;
   }
   body #menu .wrapper-title h2,
-  body #contact-us .wrapper-title h2 {
+  body #contact .wrapper-title h2 {
     font-size: 45px;
     line-height: 45px;
   }
   body #menu .wrapper-title {
     text-align: center;
   }
-  body #contact-us .wrapper-title {
+  body #contact .wrapper-title {
     text-align: center;
   }
-  body #contact-us .col-sm-6.col-xs-6 {
+  body #contact .col-sm-6.col-xs-6 {
     width: 100%;
     margin-bottom: 30px;
     text-align: left;
@@ -5781,17 +5781,17 @@ button.close {
   body blockquote:after {
     bottom: 24px;
   }
-  body #contact-us .col-md-6 {
+  body #contact .col-md-6 {
     clear: left;
   }
-  body #contact-us .adress a:before {
+  body #contact .adress a:before {
     top: -8px;
   }
-  body #contact-us #copy {
+  body #contact #copy {
     text-align: center;
   }
-  body #contact-us #copy p,
-  body #contact-us #copy a {
+  body #contact #copy p,
+  body #contact #copy a {
     float: none;
     text-align: center;
   }
@@ -5859,19 +5859,19 @@ button.close {
     padding-top: 40px;
   }
   body #menu .wrapper-title,
-  body #contact-us .wrapper-title {
+  body #contact .wrapper-title {
     margin-bottom: 50px !important;
     padding: 0px;
   }
   body #menu .wrapper-title h2,
-  body #contact-us .wrapper-title h2 {
+  body #contact .wrapper-title h2 {
     font-size: 50px;
     line-height: 50px;
   }
   body #menu .wrapper-title {
     text-align: center;
   }
-  body #contact-us .wrapper-title {
+  body #contact .wrapper-title {
     text-align: left;
   }
   body #menu .text-menu p {
@@ -5893,14 +5893,14 @@ button.close {
   body blockquote:after {
     bottom: 24px;
   }
-  body #contact-us .col-md-6 {
+  body #contact .col-md-6 {
     clear: left;
   }
-  body #contact-us #copy {
+  body #contact #copy {
     text-align: center;
   }
-  body #contact-us #copy p,
-  body #contact-us #copy a {
+  body #contact #copy p,
+  body #contact #copy a {
     float: none;
     text-align: center;
   }
@@ -5967,19 +5967,19 @@ button.close {
     padding-top: 40px;
   }
   body #menu .wrapper-title,
-  body #contact-us .wrapper-title {
+  body #contact .wrapper-title {
     margin-bottom: 50px !important;
     padding: 0px;
   }
   body #menu .wrapper-title h2,
-  body #contact-us .wrapper-title h2 {
+  body #contact .wrapper-title h2 {
     font-size: 50px;
     line-height: 50px;
   }
   body #menu .wrapper-title {
     text-align: center;
   }
-  body #contact-us .wrapper-title {
+  body #contact .wrapper-title {
     text-align: left;
   }
   body #menu .text-menu p {
@@ -5992,7 +5992,7 @@ button.close {
     font-size: 24px;
     line-height: 24px;
   }
-  body #contact-us .col-md-6 {
+  body #contact .col-md-6 {
     clear: left;
   }
 }
@@ -6455,12 +6455,12 @@ section {
 }
 .menu-accordion:hover,
 .menu-accordion:focus {
-  color: #800000;
+  color: #e67e22;
   text-decoration: none;
 }
 .menu-accordion:hover:after,
 .menu-accordion:focus:after {
-  color: #800000;
+  color: #e67e22;
 }
 .menu-accordion:after {
   -webkit-transition: all 0.3s ease-in-out;
@@ -6765,7 +6765,7 @@ section {
 .wrapper-accordion li.a-6 {
   background-image: url(/images/a-6.svg);
 }
-/* About */
+/* Items */
 .title-section {
   font-size: 70px;
   line-height: 70px;
@@ -6985,18 +6985,18 @@ a:focus {
   outline: none !important;
   text-decoration: none !important;
 }
-#contact-us {
+#contact {
   padding: 100px 0 170px 0;
   background: #e67e22;
   position: relative;
 }
-#contact-us .wrapper-title {
+#contact .wrapper-title {
   padding: 0px;
 }
-#contact-us .wrapper-title h2 {
+#contact .wrapper-title h2 {
   color: #ffffff;
 }
-#contact-us h3 {
+#contact h3 {
   font-size: 36px;
   line-height: 36px;
   margin: 0 0 30px 0;
@@ -7005,16 +7005,16 @@ a:focus {
   font-weight: 700;
   text-transform: uppercase;
 }
-#contact-us .adress {
+#contact .adress {
   position: relative;
   margin-bottom: 16px;
 }
-#contact-us .adress a {
+#contact .adress a {
   position: relative;
   padding-left: 45px;
   display: inline-block;
 }
-#contact-us .adress a:before {
+#contact .adress a:before {
   display: block;
   width: 24px;
   height: 38px;
@@ -7032,7 +7032,7 @@ a:focus {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-#contact-us .adress a:after {
+#contact .adress a:after {
   display: block;
   width: 24px;
   height: 38px;
@@ -7050,17 +7050,17 @@ a:focus {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-#contact-us .adress a:hover:before {
+#contact .adress a:hover:before {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   opacity: 0;
 }
-#contact-us .adress a:hover:after {
+#contact .adress a:hover:after {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=100);
   opacity: 1;
 }
-#contact-us .adress a h4 {
+#contact .adress a h4 {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -7074,7 +7074,7 @@ a:focus {
   text-transform: uppercase;
   font-weight: bold;
 }
-#contact-us .adress a p {
+#contact .adress a p {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
@@ -7085,10 +7085,10 @@ a:focus {
   line-height: 22px;
   margin: 0px;
 }
-#contact-us .tel {
+#contact .tel {
   margin-bottom: 22px;
 }
-#contact-us .tel p {
+#contact .tel p {
   font-size: 28px;
   line-height: 24px;
   color: #ffffff;
@@ -7096,7 +7096,7 @@ a:focus {
   position: relative;
   min-height: 34px;
 }
-#contact-us .tel p:before {
+#contact .tel p:before {
   display: block;
   width: 24px;
   height: 34px;
@@ -7106,17 +7106,17 @@ a:focus {
   left: 0px;
   background: transparent url("/images/sprites.svg") no-repeat -128px -192px;
 }
-#contact-us .tel p span {
+#contact .tel p span {
   color: #ffffff;
   font-size: 12px;
   line-height: 15px;
   display: inline-block;
   padding-top: 6px;
 }
-#contact-us .facebook {
+#contact .facebook {
   position: relative;
 }
-#contact-us .facebook a {
+#contact .facebook a {
   padding-top: 6px;
   min-height: 38px;
   position: relative;
@@ -7132,7 +7132,7 @@ a:focus {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-#contact-us .facebook a:before {
+#contact .facebook a:before {
   display: block;
   width: 19px;
   height: 38px;
@@ -7150,7 +7150,7 @@ a:focus {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-#contact-us .facebook a:after {
+#contact .facebook a:after {
   display: block;
   width: 19px;
   height: 38px;
@@ -7168,21 +7168,21 @@ a:focus {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-#contact-us .facebook a:hover:before {
+#contact .facebook a:hover:before {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   opacity: 0;
 }
-#contact-us .facebook a:hover:after {
+#contact .facebook a:hover:after {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=100);
   opacity: 1;
 }
-#contact-us .mail {
+#contact .mail {
   position: relative;
   margin-bottom: 22px;
 }
-#contact-us .mail a {
+#contact .mail a {
   min-height: 30px;
   position: relative;
   padding-left: 45px;
@@ -7197,7 +7197,7 @@ a:focus {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-#contact-us .mail a:before {
+#contact .mail a:before {
   display: block;
   width: 30px;
   height: 23px;
@@ -7215,7 +7215,7 @@ a:focus {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-#contact-us .mail a:after {
+#contact .mail a:after {
   display: block;
   width: 30px;
   height: 23px;
@@ -7233,21 +7233,21 @@ a:focus {
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-#contact-us .mail a:hover:before {
+#contact .mail a:hover:before {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   opacity: 0;
 }
-#contact-us .mail a:hover:after {
+#contact .mail a:hover:after {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
   filter: alpha(opacity=100);
   opacity: 1;
 }
-#contact-us .heures {
+#contact .heures {
   padding-left: 45px;
   position: relative;
 }
-#contact-us .heures h4 {
+#contact .heures h4 {
   font-size: 24px;
   line-height: 24px;
   margin: 2px 0 4px 0px;
@@ -7256,7 +7256,7 @@ a:focus {
   text-transform: uppercase;
   font-weight: bold;
 }
-#contact-us .heures:before {
+#contact .heures:before {
   display: block;
   width: 32px;
   height: 33px;
@@ -7266,13 +7266,13 @@ a:focus {
   left: 0px;
   background: transparent url("/images/sprites.svg") no-repeat -192px -192px;
 }
-#contact-us .heures p {
+#contact .heures p {
   color: #ffffff;
   font-size: 16px;
   line-height: 22px;
   margin: 0px;
 }
-#contact-us #copy {
+#contact #copy {
   position: absolute;
   padding-top: 72px;
   left: 0px;
@@ -7281,7 +7281,7 @@ a:focus {
   bottom: 0px;
   padding-bottom: 10px;
 }
-#contact-us #copy:after {
+#contact #copy:after {
   width: 100%;
   position: absolute;
   top: 0px;
@@ -7291,14 +7291,14 @@ a:focus {
   content: "";
   height: 64px;
 }
-#contact-us #copy p {
+#contact #copy p {
   margin: 0px;
   color: #ffffff;
   font-size: 11px;
   line-height: 11px;
   float: left;
 }
-#contact-us #copy a {
+#contact #copy a {
   display: inline-block;
   float: right;
   margin: 0px;
@@ -7313,14 +7313,14 @@ a:focus {
   font-family: 'Courgette', Georgia, "Times New Roman", Times, serif;
   text-transform: none;
 }
-#contact-us #copy a span {
+#contact #copy a span {
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-#contact-us #copy a:hover span {
+#contact #copy a:hover span {
   color: #800000;
 }
 .embed-container {
@@ -7525,14 +7525,14 @@ body::-webkit-scrollbar-corner {
 .ie8 .wrapper-title .pastille-plats:before,
 .ie7 .bt-facebook:before,
 .ie8 .bt-facebook:before,
-.ie7 #contact-us .tel:before,
-.ie8 #contact-us .tel:before,
-.ie7 #contact-us .mail a:before,
-.ie8 #contact-us .mail a:before,
-.ie7 #contact-us .facebook a:before,
-.ie8 #contact-us .facebook a:before,
-.ie7 #contact-us .adress a:before,
-.ie8 #contact-us .adress a:before {
+.ie7 #contact .tel:before,
+.ie8 #contact .tel:before,
+.ie7 #contact .mail a:before,
+.ie8 #contact .mail a:before,
+.ie7 #contact .facebook a:before,
+.ie8 #contact .facebook a:before,
+.ie7 #contact .adress a:before,
+.ie8 #contact .adress a:before {
   background-image: url(/images/sprites.png) !important;
 }
 .ie7 .apporter-vin:before,
@@ -7541,13 +7541,13 @@ body::-webkit-scrollbar-corner {
 .ie8 .apporter-vin:after {
   background-image: url(/images/pattern-waves.png) !important;
 }
-.ie7 #contact-us .col-md-3.col-sm-6,
-.ie8 #contact-us .col-md-3.col-sm-6 {
+.ie7 #contact .col-md-3.col-sm-6,
+.ie8 #contact .col-md-3.col-sm-6 {
   width: 25% !important;
   float: left !important;
 }
-.ie7 #contact-us .col-md-6,
-.ie8 #contact-us .col-md-6 {
+.ie7 #contact .col-md-6,
+.ie8 #contact .col-md-6 {
   width: 50% !important;
   float: left !important;
 }
