@@ -1,11 +1,6 @@
 TobaccoMall::Application.routes.draw do
   root "pages#home"
 
-  get "about" => "pages#about" # creates about_path
-  get "products" => "pages#products" # creates products_path
-  get "photos" => "pages#photos" # creates photos_path
-  get "contact" => "pages#contact" # creates contact_path
-
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

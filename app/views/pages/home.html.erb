@@ -1,53 +1,436 @@
+<head>
+  <meta charset="utf-8">
+  <title>Tobacco Mall</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tobacco Mall, a charming little family-run store in Parkville, Maryland, with  a diverse selection of menu for all your tobacco needs.">
+
+  <!-- OG, fav and touch icons -->
+  <meta property="og:title" content=""/>
+  <meta property="og:url" content="http://tobacco-mall.com/"/>
+  <!--
+  <meta property="og:image" content="http://resto-elephant.com/images/og-300.png"/>
+  -->
+  <meta property="og:site_name" content="Tobacco Mall"/>
+  <meta property="og:description" content="Tobacco Mall, a charming little family-run store in Parkville, Maryland, with  a diverse selection of menu for all your tobacco needs."/>
+  <!--
+  <link rel="apple-touch-icon" href="http://resto-elephant.com/images/ic-57.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="http://resto-elephant.com/images/ic-72.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="http://resto-elephant.com/images/ic-114.png" />
+  -->
+  <link rel="apple-touch-icon-precomposed" href="" />
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link href='http://fonts.googleapis.com/css?family=Alegreya:400,700|Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.css.scss">   
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="/js/jquery-ie.js"></script>
+    <script src="/js/fix-ie.js"></script>
+  <![endif]-->
+
+</head>
+
 <body>
-  <a name="about"></a>
-  <section id="section-about">
-    <div class="panel panel-default">
-      <div class="panel-heading center" background="/assets/images/store-front.jpg">
+  <div id="fb-root"></div>
+  <!--
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  -->
+
+    <div id="wrap-animation">
+      <div id="wrap">
+        <div class="wrapper-nav">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12">
+                  <a href="#wrap-animation" class="scrollto">
+                    <img src="/images/brand.png" width="180" height="40" alt="Tobacco Mall" class="logo-fixed"/>
+                  </a>
+                  <nav>
+                    <ul class="list-unstyled">
+                      <li class="first hidden-mobile"><a href="#menu" class="scrollto bt-menu">menu</a></li>
+                      <li class="hidden-mobile"><a href="#about" class="scrollto bt-about">About</a></li>
+                      <li class="hidden-mobile"><a href="#photos" class="scrollto bt-photos">Photos</a></li>
+                      <li class="hidden-mobile"><a href="#contact" class="scrollto bt-contact">Contact</a></li>
+                      <li class="li-facebook"><a href="#" class="bt-facebook" target="_blank"></a></li>
+                      <li class="visible-mobile">
+                        <div class="select-menu">
+                          <div class="select">
+                            <span>&nbsp;</span>
+                          </div>
+                          <select id="select-nav">
+                            <option value="#menu">Menu</option>
+                            <option value="#about">About</option>
+                            <option value="#contact-us">Contact</option>
+                          </select>
+                        </div>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+
+<header id="accueil" class="hidden-mobile">
+  <div id="custom-slider">
+    <ul class="list-unstyled parallax-slider">
+      <li id="bg-header" style="background-image:url(/images/cigars.jpg);" class="fullscreen background parallax" data-img-width="2350" data-img-height="1920" data-diff="1080"></li>
+    </ul>
+    <a class="scrollDown" onclick="$('html, body').animate({ scrollTop: $('#items').offset().top -50}, 800);"><span>&nbsp;</span></a>
+  </div>
+  </header>
+  <header id="header-mobile" class="visible-mobile">
+  <div class="row">
+    <div class="col-lg-12">
+      <img src="/images/brand.jpg" alt="Tobacco Mall" width="240" height="314"/>
+    </div>
+  </div>
+</header>
+
+<section id="menu">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="wrapper-title">
+        <h2>Our Items</h2>
+        <div class="pastille-plats">
+          <h3>Always<strong>in stock!</strong></h3>
+        </div>
       </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <!--
+      <div class="text-menu">
+        <p>Our inventory is ever-expanding.</p>
+        <p>Have a look below at our awesome selection.</p><br/>
+      </div>
+      -->
+      <ul class="wrapper-accordion list-unstyled">
+        <li class="a-1">
+          <a href="#" class="menu-accordion">Cigarettes</a>
+          <div class="after-accordion" style="display:none;">
+            <ul class="list-unstyled">
+              <li>
+                <h3>Soupe du jour</h3>
+                <p class="price">03</p>
+              </li>
+              <li>
+                <h3>Courge carotte</h3>
+                <p>Courge butternut, coco.</p>
+                <p class="price">03</p>
+              </li>
+              <li>
+                <h3>Lentilles, bouillon d’agneau</h3>
+                <p>Légumes, piments forts.</p>
+                <p class="price">03</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="a-2">
+          <a href="#" class="menu-accordion">Tobacco</a>
+          <div class="after-accordion" style="display:none;">
+            <ul class="list-unstyled">
+              <li>
+                <h3>Samosa agneau</h3>
+                <p>Pois, pommes de terre, citron.</p>
+                <p class="price">04</p>
+              </li>
+              <li>
+                <h3>Fish cakes</h3>
+                <p>Croquettes de poisson, herbes fraîches, mayo épicée.</p>
+                <p class="price">05</p>
+              </li>
+              <li>
+                <h3>Crab Cakes</h3>
+                <p>Croquettes de crabe, mayo épicée.</p>
+                <p class="price">05</p>
+              </li>
+              <li>
+                <h3>Hummus</h3>
+                <p>Taboulé chou-fleur, oignons confits.</p>
+                <p class="price">03</p>
+              </li>
+              <li>
+                <h3>Salade fraîche</h3>
+                <p>Mesclun, légumes croquants, dattes.</p>
+                <p class="price">04</p>
+              </li>
+              <li>
+                <h3>Fish Pakora</h3>
+                <p>Mahi mahi frit, paprika fumé.</p>
+                <p class="price">05</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="a-3">
+          <a href="#" class="menu-accordion">Cigars</a>
+          <div class="after-accordion" style="display:none;">
+            <ul class="list-unstyled">
+              <li>
+                <h3>Curry légumes</h3>
+                <p>Lait de coco, curry vert.</p>
+                <p class="price">08</p>
+              </li>
+              <li>
+                <h3>Dhal</h3>
+                <p>Mijoté de lentilles, légumes.</p>
+                <p class="price">07</p>
+              </li>
+              <li>
+                <h3>Curry pois chiches</h3>
+                <p>Coco, cardamome, tamarin.</p>
+                <p class="price">08</p>
+              </li>
+              <li>
+                <h3>Salade noix-dattes</h3>
+                <p>Mesclun, légumes croquants.</p>
+                <p class="price">09</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="a-4">
+          <a href="#" class="menu-accordion">Hookah</a>
+          <div class="after-accordion" style="display:none;">
+            <ul class="list-unstyled">
+              <li>
+                <h3>Poulet au beurre</h3>
+                <p>Sauce crémeuse, cardamome.</p>
+                <p class="price">13</p>
+              </li>
+              <li>
+                <h3>Agneau Korma</h3>
+                <p>Sauce au yogourt, noix torréfiées.</p>
+                <p class="price">15</p>
+              </li>
+              <li>
+                <h3>Curry vert de crevettes</h3>
+                <p>Lime kéfir, citronelle, basilic thaï.</p>
+                <p class="price">12</p>
+              </li>
+              <li>
+                <h3>Poisson mangue & yogourt</h3>
+                <p>Poisson blanc, sauce tomatée.</p>
+                <p class="price">12</p>
+              </li>
+              <li>
+                <h3>Popeye Paneer</h3>
+                <p>Purée d'épinards, piments forts, fromage grillé.</p>
+                <p class="price">09</p>
+              </li>
+              <li>
+                <h3>Pilon de poulet Tika</h3>
+                <p>Épices tika masala, citron, mayo.</p>
+                <p class="price">12</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="a-5">
+          <a href="#" class="menu-accordion">Accessories</a>
+          <div class="after-accordion" style="display:none;">
+            <ul class="list-unstyled">
+              <li>
+                <h3>Citron-cannelle-curcuma</h3>
+                <p class="price">02</p>
+              </li>
+              <li>
+                <h3>Safran-girofle</h3>
+                <p class="price">03</p>
+              </li>
+              <li>
+                <h3>Nature</h3>
+                <p class="price">02</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-6">
+          <div id="carousel-menu" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-menu" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-menu" data-slide-to="1"></li>
+                <li data-target="#carousel-menu" data-slide-to="2"></li>
+                <li data-target="#carousel-menu" data-slide-to="3"></li>
+              </ol>
 
-      <div class="panel panel-body">
-        <h1>About Tobacco Mall</h1>
-        <h3>We at Tobacco Mall believe in customer satisfaction and a cordial shopping experience. Nothing makes us happier than to see you find what you are looking for! For more than five years, our little family-run business has satisfied our guests with consistency, diversity, and friendship. So come on by and browse our awesome selection of quality tobacco products or have a go at the lottery, we always love your company - and who knows, you might even find yourself charmed by our eclectic collection of tobacco paraphernalia!</h3>
-        <p>-Kee and Helen</p>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                    <img src="/images/bundle.jpg" alt="...">
+                </div>
+                <div class="item">
+                    <img src="/images/bundle.jpg" alt="...">
+                </div>
+                <div class="item">
+                    <img src="/images/bundle.jpg" alt="...">
+                </div>
+                <div class="item">
+                    <img src="/images/bundle.jpg" alt="...">
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-6">
+          <blockquote>
+            Really nice people, and they have what I usually get. I've been going there for a few years and the employees always say hello and are very helpful. Highly recommended.
+          </blockquote>
+        </div>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+  <div class="col-lg-12">
+    <h3 class="apporter-vin">We do not serve to those under 21 years of age.</h3>
+  </div>
+</div>
+</section>
+
+<!-- Second Background Image -->
+<section style="background-image:url(/images/cigars.jpg);" class="fullscreen background parallax bg-ambiance hidden-mobile spacer" data-img-width="1920" data-img-height="1080" data-diff="100"></section>
+      
+<section id="about">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h2 class="title-section"><strong>About</strong>Tobacco Mall</h2>
+      <div class="text">
+        <p>We at Tobacco Mall believe in customer satisfaction and a cordial shopping experience. Nothing makes us happier than to see you find what you are looking for! For more than five years, our little family-run business has satisfied our guests with consistency, diversity, and friendship. So come on by and browse our awesome selection of quality tobacco products or have a go at the lottery, we always love your company - and who knows, you might even find yourself charmed by our eclectic collection of tobacco paraphernalia!</p>
       </div>
     </div>
-  </section>
+  </div>
+</div>
+</section>
 
-  <a name="products"></a>
-  <section id="section-products">
-    <div class="jumbotron">
-      <h1>Products</h1>
-      <h3>Cigarettes</h3>
-      <h3>Tobacco</h3>
-      <h3>Cigars</h3>
-      <h3>Hookah</h3>
-      <h3>Accessories</h3>
-      <h3>Other</h3>
-    </div>
-  </section>
+<!-- Third Background Image -->
+<section style="background-image:url(/images/macro.jpg);" class="fullscreen background parallax bg-ambiance hidden-mobile" data-img-width="2500" data-img-height="1667" data-diff="100"></section>
+<section id="photos" class="hidden-mobile">
 
-  <a name="photos"></a>
-  <section id="section-photos">
-    <div class="jumbotron">
-      <h1>Photos</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 wrapper-photo">
+      <div class="photo-1">
+        <img src="/images/romeo.jpg" alt="Tobacco Mall" width="560" height="730" />
+      </div>
     </div>
-  </section>
+    <div class="col-md-12 wrapper-photo">
+      <div class="photo-2">
+        <img src="/images/hands.jpg" alt="Tobacco Mall" width="554" height="354" />
+        <img src="/images/rack.jpg" alt="Tobacco Mall" width="277" height="177" class="photo-3" />
+      </div>
+    </div>
+    <div class="col-md-12 wrapper-photo">
+      <div class="photo-4">
+        <img src="/images/tools.jpg" alt="Tobacco Mall" width="616" height="394" />
+      </div>
+    </div>
+  </div>
+</div>
 
-  <a name="contact"></a>
-  <section id="section-contact">
-    <div class="jumbotron">
-      <h1>Hours of Operation</h1>
-      <h3>Monday - Saturday</h3>
-      <h3>8am - 7pm</h3>
-      <br>
-      <h1>Address</h1>
-      <h3>Satyr Hill Shopping Center</h3>
-      <h3>2039 East Joppa Road</h3>
-      <h3>Parkville, MD 21234</h3>
-      <br>
-      <h1>Feel free to contact us</h1>
-      <h3>at (410) 882-3393 or keechoi1@gmail.com</h3>
-      <h3>for any questions, comments, or concerns!</h3>
+</section>
+      <footer id="contact-us">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="wrapper-title text-right">
+                <h2>Contact Us</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <img src="/images/map.png" alt="Tobacco Mall - Satyr Hill Shopping Center, 2039 East Joppa Road, Parkville, MD 21234"/>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+              <h3>Address</h3>
+              <div class="adress">
+                <a href="https://www.google.com/maps/place/Tobacco+Mall/@39.397697,-76.541513,17z/data=!3m1!4b1!4m2!3m1!1s0x89c808d69b1f66e7:0x7436df427feede5b" target="_blank">
+                  <h4>Satyr Hill Shopping Center</h4>
+                  <p>2039 East Joppa Road<br/>Parkville, MD 21234</p>
+                </a>
+              </div>
+              <div class="tel">
+                <p>410-882-3393<br/><span>Our Ebay store:</span></p>
+              </div>
+              <div class="mail">
+                <a href="mailto:keechoi1@gmail.com" target="_blank">keechoi1@gmail.com</a>
+              </div>
+              <div class="facebook">
+                <a href="https://www.facebook.com/tobaccomall" target="_blank">/tobaccomall</a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-6">
+              <h3>Hours of Operation</h3>
+              <div class="heures">
+                <h4>Open:</h4>
+                <p>Monday to Saturday<br/>from 8am to 7pm</p><br/>
+                <h4>Closed:</h4>
+                <p>Sundays<br/>all day</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="copy">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <p>© Tobacco Mall, 2015. All rights reserved.</p>
+                <a href="https://github.com/Jyrmi" target="_blank" class="pl">by <span>Jeremy Choi</span></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
-  </section>
+  </div>
+  <div class="bar-ie8">
+    <div class="bar-upgrade">
+      <div class="container">
+        <p>This site is not optimized for Internet Explorer 7 and 8. <a href="http://windows.microsoft.com/fr-ch/internet-explorer/download-ie" target="_blank">Click here for the latest version.</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+</div>
+  <!--
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-51022003-1', 'tobacco-mall.com');
+    ga('send', 'pageview');
+  </script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="/js/affix.js"></script>
+  <script src="/js/alert.js"></script>
+  <script src="/js/button.js"></script>
+  <script src="/js/carousel.js"></script>
+  <script src="/js/collapse.js"></script>
+  <script src="/js/detect.js"></script>
+  <script src="/js/scrollspy.js"></script>
+  <script src="/js/jquery.mousewheel.js"></script>
+  <script src="/js/pace.min.js"></script>
+  <script src="/js/tab.js"></script>
+  <script src="/js/tooltip.js"></script>
+  <script src="/js/transition.js"></script>
+  <script src="/js/css_browser_selector.js"></script>
+  <script src="/js/script.js"></script>
+  -->
 </body>
